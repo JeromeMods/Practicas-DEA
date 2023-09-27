@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    height:100%;
+    width:100%;
+    box-sizing:border-box;
+}
+.result{
+    display: block;
+    width: 100%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0 0 2rem 2rem;
+}
+.result h3{
+    margin: 0 auto;
+    color: hsl(241, 100%, 89%);
+    padding: 1rem;
+    text-align: center;
+}
+.result h2{
+    text-align: center;
+    color: white;
+}
+.result p{
+    font-size: 0.8rem;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    padding-bottom: 2rem;
+}
+.circle {
+    display: block;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+#big{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.summary{
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+.summary h2{
+    padding-bottom: 1rem;
+}
+
+.infobox{
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+    display: flex;
+    padding: 1rem 0;
+    border-radius: 1rem;
+}
+.shead{
+    text-indent: 1rem;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+.infobox img{
+    margin-left: 1rem;
+}
+.score{
+    padding-right: 1rem;
+}
+.score span:first-child{
+    font-weight: bold;
+}
+.score span:last-child{
+    color: hsl(241, 100%, 89%);
+}
+
+
+.reaction{
+    background-color: hsla(0, 100%, 67%,10%);
+}
+.reaction h3{
+    color: hsl(0, 100%, 67%);
+}
+.memory{
+    background-color: hsla(39, 100%, 56%,10%);
+}
+.memory h3{
+    color: hsl(39, 100%, 56%);
+}
+.verbal{
+    background-color: hsla(166, 100%, 37%,10%);
+}
+.verbal h3{
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    background-color: hsla(234, 85%, 45%,10%);
+}
+.visual h3{
+    color: hsl(234, 85%, 45%);
+}
+.button{
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    width: 100%;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    color: white;
+}
+@media screen and (min-width: 750px) {
+    *{
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    body, html{
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .Container{
+        margin: 0 auto;
+        display: flex;
+        border-radius: 2rem;
+        box-shadow: 10px 5px 5px rgba(5, 5, 5, 0.315);
+    }
+    .result{
+        width: 50%;
+        border-radius: 2rem;
+    }
+    .summary{
+        width: 50%;
+    }
+    .circle{
+        width: 10rem;
+        height: 10rem;
+    }
+    
+}
